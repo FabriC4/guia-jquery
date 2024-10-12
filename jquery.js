@@ -100,3 +100,92 @@ function cambiarTamaño3() {
 }*/
 
 /*Actividad 7*/
+/*let x = $(document);
+x.ready(inicializarEventos);
+
+function inicializarEventos() {
+  let x = $("#boton1");
+  x.click(modificarDatosTabla);
+}
+
+function modificarDatosTabla() {
+  let x = $("#tabla1 td");
+  x.text("-");
+}*/
+
+/*Actividad 8*/
+/*let x = $(document);
+x.ready(inicializarEventos);
+
+function inicializarEventos() {
+  let x1 = $("#boton1");
+  x1.click(enlace1);
+  let x2 = $("#boton2");
+  x2.click(enlace2);
+  let x3 = $("#boton3");
+  x3.click(enlace3);
+}
+
+function enlace1() {
+  let x = $("#enlace");
+  x.attr("href","https://chat.openai.com/");
+}
+
+function enlace2() {
+  let x = $("#enlace");
+  x.attr("href","https://missing11.com/");
+}
+
+function enlace3() {
+  let x = $("#enlace");
+  x.attr("href","https://onefootball.com/es/inicio");
+}
+*/
+
+/*Actividad 9*/
+/*let x = $(document);
+x.ready(inicializarEventos);
+
+function inicializarEventos() {
+  let x1 = $("#asociar");
+  x1.click(asociarClase);
+  x2 = $("#desasociar");
+  x2.click(desasociarClase);
+}
+
+function asociarClase() {
+  let thead= $("thead");
+  thead.addClass("theadStyle");
+
+  let tbody= $("tbody");
+  tbody.addClass("tbodyStyle");
+}
+
+function desasociarClase() {
+  let thead = $("thead");
+  thead.removeClass("theadStyle");
+
+  let tbody= $("tbody");
+  tbody.removeClass("tbodyStyle");
+}*/
+
+/*Actividad 10*/
+/*let x = $(document);
+x.ready(inicializarEventos);
+
+function inicializarEventos() {
+  let x1 = $("#alertaCabecera");
+  x1.click(presionBoton1);
+  x2 = $("#alertaCuerpo");
+  x2.click(presionBoton2);
+}
+
+function presionBoton1() {
+  let contenidoHead = $("head").html();
+  alert("Contenido del Head " + contenidoHead);
+}
+
+function presionBoton2() {
+  let contenidoBody = $("body").html();
+  alert("Contenido del Body " + contenidoBody);
+}*/
